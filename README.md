@@ -1,6 +1,6 @@
 # My collection of scripts
 
-`Ubuntu 18.08`
+`Ubuntu 18.04`
 
 1. postman-install.sh
 
