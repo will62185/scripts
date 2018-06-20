@@ -1,6 +1,8 @@
 #!/bin/bash
 
 #---Script to install Postman---#
+echo "Starting Install . . ."
+
 wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
 sudo tar -xzf postman.tar.gz -C /opt
 sudo ln -s /opt/Postman/Postman /usr/bin/postman
@@ -16,5 +18,7 @@ Terminal=false
 Type=Application
 Categories=Development;
 EOL
+
 rm postman.tar.gz
+
 echo "Completed"

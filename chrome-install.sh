@@ -1,4 +1,6 @@
-# Script to install Chrome
+#!/bin/bash
+
+#---Script to install Chrome---#
 
 echo "Starting Install . . ."
 
